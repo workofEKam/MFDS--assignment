@@ -8,10 +8,7 @@ A simple Python simulation of a Russian Roulette game between 2 players. There a
 The code provided runs a Russian Roulette Simulation for 2 players (A and B). The code has the function simulation(num, gameTotal) which is used to run the simulation in total of 'num' times (captured from input) and each simulation has 'gameTotal' = 100000 games. In each game, a counter starting from 1 will be initialized and a number in the set {0,1,2,3,4,5} will be randomized. If the random number is not 0, which has the probability of 5/6, the counter will increase by 1 and a new number will be randomized. Only until 0 is randomized, the game will be stopped and the loser will be determined by the parity of the counter (Player A will lose if the counter is odd and vice versa). 
 
 ```python
-# Surviving the deadliest and stupidest game ever: Russian Roulette - The simulations
-# Author: Vo-Hoang-Tuan Ngo (26839)
-# Rhein-Waal University of Applied Sciences
-# Date 03.01.2021
+
 
 import random
 import numpy as np
